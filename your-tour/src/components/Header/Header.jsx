@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../styles/ComponentsStyles/HeaderStyles/Header.css';
-import YourTourLogo from '../../styles/ComponentsStyles/HeaderStyles/HeaderPNG/YourTour.png';
+import './Header.css';
+import YourTourLogo from './HeaderPNG/YourTour.png';
 
 export default function Header() {
   return (
