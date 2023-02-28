@@ -28,12 +28,6 @@
 }
 
 @media (max-width: 780px) {
-  .info-link__container {
-    width: 199px;
-    height: 42px;
-    background: #286562;
-    border-radius: 50px;
-  }
   .info-link__container .info-link__text {
     font-size: 20px;
   }

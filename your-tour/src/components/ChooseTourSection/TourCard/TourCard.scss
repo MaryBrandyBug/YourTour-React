@@ -53,6 +53,38 @@
     }
 }
 
+@media (min-width: 780px) {
+    .choose-tour__card:hover .choose-tour__card__background {
+        transform: scale(1.2);
+        transition: all 300ms ease;
+    }
+
+    .choose-tour__card:hover {
+        cursor: pointer;
+
+        .choose-tour__card-content {
+
+            .info-link__container {
+                width: 199px;
+                height: 42px;
+                background: $darkGreen;
+                position: absolute;
+                top: 446px;
+                left: 30px;
+            }
+
+            .info-link__container:active {
+                width: 199px;
+                height: 42px;
+                background: $orangeColor;
+                position: absolute;
+                top: 446px;
+                left: 30px;
+            }
+        }
+    }
+}
+
 @media (max-width: 1175px) {
     .choose-tour__card {
         min-width: 332px;
@@ -117,6 +149,73 @@
             .choose-tour__link {
                 top: 269px;
                 left: 26px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .choose-tour__card {
+        min-width: 318px;
+        min-height: 318px;
+        border-radius: 20px;
+
+        .choose-tour__card__background {
+            min-width: 318px;
+            border-radius: 20px;
+        }
+
+        .choose-tour__card-content {
+            padding: 25px;
+            left: -2px;
+            top: 2px;
+
+            .choose-tour__text-container {
+                max-width: 268px;
+                gap: 13px;
+
+                .choose-tour__card__subtitle {
+                    font-size: 16px;
+                }
+            }
+
+            .choose-tour__link {
+                top: 269px;
+                left: 26px;
+            }
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .choose-tour__card {
+        min-width: 318px;
+        min-height: 318px;
+        border-radius: 20px;
+
+        .choose-tour__card__background {
+            min-width: 318px;
+            border-radius: 20px;
+        }
+
+        .choose-tour__card-content {
+            padding: 25px;
+            left: -2px;
+            top: 2px;
+
+            .choose-tour__text-container {
+                max-width: 268px;
+                gap: 13px;
+
+                .choose-tour__card__subtitle {
+                    font-size: 16px;
+                }
+            }
+
+            .choose-tour__link {
+                top: 269px;
+                left: 26px;
+
             }
         }
     }
