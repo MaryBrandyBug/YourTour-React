@@ -5,6 +5,7 @@
   justify-content: center;
   gap: 15px;
   cursor: pointer;
+  border-radius: 50px;
 }
 .info-link__container .info-link__text {
   max-width: 120px;
