@@ -5,6 +5,7 @@ import DetailsBtn from '../../DetailsBtn/DetailsBtn';
 
 export default function TourCard(cardImg) {
   const { img } = cardImg;
+
   return (
     <div className="choose-tour__card">
       <div className="choose-tour__card-content">
