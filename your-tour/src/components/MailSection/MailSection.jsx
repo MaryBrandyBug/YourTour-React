@@ -1,6 +1,6 @@
 import React from 'react';
 import './MailSection.css';
-import mailSectionPhoto from './Mail-Section-Png/footer photo.png';
+import mailSectionPhoto from './MailSectionPng/footer photo.png';
 
 export default function MailSection() {
   return (
