@@ -2,6 +2,7 @@ import './styles/AppStyles/App.css';
 
 import Header from './components/Header/Header';
 import ChooseTour from './components/ChooseTourSection/ChooseTour/ChooseTour';
+import Form from './components/FormSection/Form';
 import Reviews from './components/ReviewsSection/Reviews/Reviews';
 import TravelPhoto from './components/TravelPhotoSection/TravelPhoto';
 import TravelStories from './components/TravelStoriesSection/TravelStories/TravelStories';
@@ -13,6 +14,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <ChooseTour />
+      <Form />
       <Reviews />
       <TravelPhoto />
       <TravelStories />

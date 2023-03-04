@@ -20,6 +20,10 @@ html, body{
   font-size: 100%;
 }
 
+body {
+  background: $beigeColor;
+}
+
 input, button{font-family: inherit;}
 button{cursor: pointer;}
 a:visited{text-decoration: none;}
