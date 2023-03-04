@@ -3,6 +3,8 @@ import './Header.css';
 import YourTourLogo from './HeaderPNG/YourTour.png';
 
 export default function Header() {
+  const menuItems = ['Туры', 'Создать тур', 'Отзывы', 'Истории'];
+  const menu = menuItems.map((item) => <p className="menu__item main-font-style">{item}</p>);
   return (
     <header className="header">
       <div className="header__navbar">
@@ -12,10 +14,7 @@ export default function Header() {
 
           </div>
           <div className="navbar__menu">
-            <p className="menu__item main-font-style">Туры</p>
-            <p className="menu__item main-font-style">Создать тур</p>
-            <p className="menu__item main-font-style">Отзывы</p>
-            <p className="menu__item main-font-style">Истории</p>
+            {menu}
           </div>
           <p className="telephone main-font-style">+7 999 999 99 99</p>
         </div>

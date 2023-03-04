@@ -12,6 +12,13 @@ import tourImg5 from '../ChooseTourPng/cardTourPh-4.png';
 import tourImg6 from '../ChooseTourPng/cardTourPh-6.png';
 
 export default function ChooseTour() {
+  const menuItems = ['Авторские', 'Походы', 'Сплавы', 'Велопрогулки'];
+  const menu = menuItems.map((item) => (
+    <div className="choose-tour-section_menu__item">
+      <p className="choose-tour-section_menu__item-name">{item}</p>
+      <div className="choose-tour-section_menu__item-line" />
+    </div>
+  ));
   return (
     <div className="choose-tour-section section">
       <div className="choose-tour-section__header section__header__flex">
@@ -21,22 +28,7 @@ export default function ChooseTour() {
             <p className="choose-tour-section_menu__active-item">Популярные</p>
             <div className="choose-tour-section_menu__item-line" />
           </div>
-          <div className="choose-tour-section_menu__item">
-            <p className="choose-tour-section_menu__item-name">Авторские</p>
-            <div className="choose-tour-section_menu__item-line" />
-          </div>
-          <div className="choose-tour-section_menu__item">
-            <p className="choose-tour-section_menu__item-name">Походы</p>
-            <div className="choose-tour-section_menu__item-line" />
-          </div>
-          <div className="choose-tour-section_menu__item">
-            <p className="choose-tour-section_menu__item-name">Сплавы</p>
-            <div className="choose-tour-section_menu__item-line" />
-          </div>
-          <div className="choose-tour-section_menu__item">
-            <p className="choose-tour-section_menu__item-name">Велопрогулки</p>
-            <div className="choose-tour-section_menu__item-line" />
-          </div>
+          {menu}
         </div>
       </div>
 
