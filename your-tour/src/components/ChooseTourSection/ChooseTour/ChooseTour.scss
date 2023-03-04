@@ -1,4 +1,4 @@
-@import '../../styles/CommonStyles/Colors/Colors.scss';
+@import '../../../styles/CommonStyles/Colors/Colors.scss';
 
 .choose-tour-section {
     gap: 100px;
@@ -58,7 +58,7 @@
     }
 
     .choose-tour-section__content {
-        max-height: 1092px;
+        // max-height: 1092px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

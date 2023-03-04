@@ -49,7 +49,6 @@
   color: #EFA501;
 }
 .choose-tour-section .choose-tour-section__content {
-  max-height: 1092px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -105,6 +104,71 @@
   }
   .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__active-item {
     font-size: 20px;
+    line-height: 142%;
+  }
+}
+@media (max-width: 576px) {
+  .choose-tour-section {
+    min-height: auto;
+    gap: 35px;
+    min-height: 2172px;
+    margin-left: -2px;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 318px;
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .choose-tour-section .choose-tour-section__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__title {
+    letter-spacing: 0.65px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+    font-size: 20px;
+    line-height: 142%;
+  }
+}
+@media (max-width: 360px) {
+  .choose-tour-section {
+    min-height: auto;
+    gap: 35px;
+    min-height: 2172px;
+    margin-left: -2px;
+  }
+  .choose-tour-section .choose-tour-section__content {
+    max-width: 318px;
+    letter-spacing: 0.04em;
+    gap: 18px;
+  }
+  .choose-tour-section .choose-tour-section__header {
+    max-width: 360px;
+    min-width: 360px;
+    gap: 30px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__title {
+    letter-spacing: 0.65px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 300px;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__item-name {
+    font-size: 16px;
+    line-height: 142%;
+  }
+  .choose-tour-section .choose-tour-section__header .choose-tour-section__header__menu .choose-tour-section_menu__item .choose-tour-section_menu__active-item {
+    font-size: 16px;
     line-height: 142%;
   }
 }/*# sourceMappingURL=ChooseTour.css.map */
