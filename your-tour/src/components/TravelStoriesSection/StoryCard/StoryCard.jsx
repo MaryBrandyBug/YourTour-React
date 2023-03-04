@@ -9,7 +9,7 @@ export default function StoryCard(props) {
   const { networks } = props;
   const { img } = props;
   const { list } = props;
-  const { additionalClass } = props;
+  const { additionalClassCards } = props;
 
   const networksList = networks?.map((network) => <p className="travel-stories-section__social-network main-font-style">{network}</p>);
   const advantagesList = list?.map((item, i) => (i !== list.length - 1 ? <li className="travel-stories-section__content-block__list-item" key={generateRandomKey()}>{item}</li> : (
@@ -19,7 +19,7 @@ export default function StoryCard(props) {
     </li>
   )));
   return (
-    <div className={`travel-stories-section__content-block ${additionalClass}`}>
+    <div className={`travel-stories-section__content-block ${additionalClassCards}`}>
       <div className="travel-stories-section__content-block__footer">
         <DetailsBtn additionalClass="travel-stories-section__footer-details-link" />
         <div className="travel-stories-section__footer-social-networks">
