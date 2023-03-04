@@ -44,18 +44,20 @@
 }
 
 @media (max-width: 360px) {
-    .info-link__text {
-        max-width: 84px;
-        max-height: 23px;
-        font-size: 15px;
-        line-height: 142%;
-    }
+    .info-link__container {
+        .info-link__text {
+            max-width: 84px;
+            max-height: 23px;
+            font-size: 15px;
+            line-height: 142%;
+        }
 
-    .info-link__arrow {
+        .info-link__arrow {
 
-        img {
-            left: 1px;
-            top: -8px;
+            img {
+                left: 1px;
+                top: -8px;
+            }
         }
     }
 }

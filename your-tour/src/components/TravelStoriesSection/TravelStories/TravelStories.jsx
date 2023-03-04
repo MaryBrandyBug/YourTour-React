@@ -28,9 +28,9 @@ export default function TravelStories() {
         </p>
       </div>
       <div className="travel-stories-section__content section__content__flex">
-        <StoryCard networks={[inst, facebook, youTube]} header={storyHeader} text={storyText} img={story1} list={advantagesList} additionalClass="first-story-card" />
-        <StoryCard networks={[inst, vk]} header={storyHeader} text={storyText} img={story2} additionalClass="second-story-card" />
-        <StoryCard networks={[inst, facebook, vk]} header={storyHeader} text={storyText} img={story3} additionalClass="third-story-card" />
+        <StoryCard networks={[inst, facebook, youTube]} header={storyHeader} text={storyText} img={story1} list={advantagesList} additionalClassCards="first-story-card" />
+        <StoryCard networks={[inst, vk]} header={storyHeader} text={storyText} img={story2} additionalClassCards="second-story-card" />
+        <StoryCard networks={[inst, facebook, vk]} header={storyHeader} text={storyText} img={story3} additionalClassCards="third-story-card" />
       </div>
     </div>
   );
