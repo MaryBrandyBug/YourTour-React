@@ -84,9 +84,6 @@
     font-size: 18px;
     line-height: 143%;
   }
-  .review-section__review-card .review-section__review-card__footer {
-    padding: 70px 0px 0px;
-  }
   .review-section__review-card .review-section__review-card__footer .review-section__footer-content {
     min-width: 270px;
     gap: 8px;
