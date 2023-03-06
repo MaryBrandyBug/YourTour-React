@@ -113,7 +113,7 @@ export default function Form() {
             <div className="agreement-text">
               Нажимая кнопку, я принимаю условия
               {' '}
-              <a href="#" className="form-section__agreement-text-link">Лицензионного договора</a>
+              <button type="button" className="form-section__agreement-text-link">Лицензионного договора</button>
             </div>
           </label>
         </div>

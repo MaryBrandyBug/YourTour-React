@@ -250,6 +250,8 @@
   text-decoration: none;
   cursor: pointer;
   margin-left: 1px;
+  font-size: 17px;
+  background: inherit;
 }
 .form-section .form-section__content-form .form-section__agreement-container .form-section__accept .checkbox__border {
   display: inline-block;
