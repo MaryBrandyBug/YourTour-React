@@ -1,0 +1,180 @@
+.choose-tour__card {
+  min-width: 370px;
+  min-height: 531px;
+  border-radius: 50px;
+  position: relative;
+  background: linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%);
+  overflow: hidden;
+}
+.choose-tour__card .choose-tour__card__background {
+  position: absolute;
+  max-width: 370px;
+  max-height: 100%;
+  z-index: -1;
+  border-radius: 50px;
+  transition: all 0.3s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.choose-tour__card .choose-tour__card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  border-radius: 50px;
+}
+.choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+  max-width: 245px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 16px;
+}
+.choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+  letter-spacing: -0.01em;
+  color: #FFFFFF;
+}
+.choose-tour__card .choose-tour__card-content .choose-tour__link {
+  position: absolute;
+  top: 453px;
+  left: 50px;
+}
+
+@media (min-width: 780px) {
+  .choose-tour__card:hover .choose-tour__card__background {
+    transform: scale(1.2);
+    transition: all 300ms ease;
+  }
+  .choose-tour__card:hover {
+    cursor: pointer;
+  }
+  .choose-tour__card:hover .choose-tour__card-content .info-link__container {
+    width: 199px;
+    height: 42px;
+    background: #286562;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+  .choose-tour__card:hover .choose-tour__card-content .info-link__container:active {
+    width: 199px;
+    height: 42px;
+    background: #EFA501;
+    position: absolute;
+    top: 446px;
+    left: 30px;
+  }
+}
+@media (max-width: 1175px) {
+  .choose-tour__card {
+    min-width: 332px;
+  }
+}
+@media (max-width: 1024px) {
+  .choose-tour__card {
+    min-width: 450px;
+  }
+  .choose-tour__card .choose-tour__card__background {
+    min-width: 450px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 350px;
+  }
+}
+@media (max-width: 992px) and (min-width: 780px) {
+  .choose-tour__card {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+  .choose-tour__card .choose-tour__card__background {
+    min-width: calc(350px - 1.0869565217vw);
+  }
+}
+@media (max-width: 780px) {
+  .choose-tour__card {
+    min-width: 318px;
+    min-width: calc(270px - 1.3908205841vw);
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card__background {
+    min-width: calc(270px - 1.3908205841vw);
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+}
+@media (max-width: 576px) {
+  .choose-tour__card {
+    min-width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card__background {
+    min-width: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+}
+@media (max-width: 360px) {
+  .choose-tour__card {
+    min-width: 318px;
+    min-height: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card__background {
+    min-width: 318px;
+    border-radius: 20px;
+  }
+  .choose-tour__card .choose-tour__card-content {
+    padding: 25px;
+    left: -2px;
+    top: 2px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container {
+    max-width: 268px;
+    gap: 13px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__text-container .choose-tour__card__subtitle {
+    font-size: 16px;
+  }
+  .choose-tour__card .choose-tour__card-content .choose-tour__link {
+    top: 269px;
+    left: 26px;
+  }
+}/*# sourceMappingURL=TourCard.css.map */
