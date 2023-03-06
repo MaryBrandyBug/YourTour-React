@@ -3,7 +3,7 @@ import './Form.css';
 
 export default function Form() {
   const [checked, setChecked] = useState(false);
-  const [radio, setRadio] = useState('no');
+  const [radio, setRadio] = useState('');
   const [yourTourForm, setYourTourForm] = useState({
     name: '', direction: '', email: '', phoneNumber: '', dateSince: '', dateUntil: '', comment: '',
   });
@@ -66,7 +66,7 @@ export default function Form() {
           <div className="form-section__input-fields-container">
             <div className="form-section__input-field-container">
               <p className="form-section__input-name main-font-style">Телефон</p>
-              <input type="tel" name="phoneNumber" className="form-section__input-field main-font-style" pattern="[+]7\s[\(]\d{3}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" maxLength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" onChange={handleInput} />
+              <input type="tel" name="phoneNumber" className="form-section__input-field main-font-style" maxLength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" onChange={handleInput} />
             </div>
           </div>
 
@@ -113,7 +113,7 @@ export default function Form() {
             <div className="agreement-text">
               Нажимая кнопку, я принимаю условия
               {' '}
-              <a href="#" className="form-section__agreement-text-link">Лицензионного договора</a>
+              <a href='#' className="form-section__agreement-text-link">Лицензионного договора</a>
             </div>
           </label>
         </div>

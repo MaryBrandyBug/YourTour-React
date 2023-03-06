@@ -1,7 +1,6 @@
 import React from 'react';
 import DetailsBtn from '../../DetailsBtn/DetailsBtn';
 import './StoryCard.css';
-import generateRandomKey from '../../../modules/utils';
 
 export default function StoryCard(props) {
   const { header } = props;
@@ -12,8 +11,8 @@ export default function StoryCard(props) {
   const { additionalClassCards } = props;
 
   const networksList = networks?.map((network) => <p className="travel-stories-section__social-network main-font-style">{network}</p>);
-  const advantagesList = list?.map((item, i) => (i !== list.length - 1 ? <li className="travel-stories-section__content-block__list-item" key={generateRandomKey()}>{item}</li> : (
-    <li className="travel-stories-section__content-block__list-item" key={generateRandomKey()}>
+  const advantagesList = list?.map((item, i) => (i !== list.length - 1 ? <li className="travel-stories-section__content-block__list-item" key={i}>{item}</li> : (
+    <li className="travel-stories-section__content-block__list-item" key={i}>
       {item}
       .
     </li>
