@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/YourTour-React/static/css/main.96d0cb8e.css",
+    "main.js": "/YourTour-React/static/js/main.5118ea24.js",
+    "static/media/header.png": "/YourTour-React/static/media/header.355977f76eb8b2ce528c.png",
+    "static/media/story3.png": "/YourTour-React/static/media/story3.2303680d58422b405d4a.png",
+    "static/media/story1.png": "/YourTour-React/static/media/story1.45e8990f29a221354f92.png",
+    "static/media/cardTourPh-4.png": "/YourTour-React/static/media/cardTourPh-4.a9552e1cf5c0ab35df71.png",
+    "static/media/cardTourPh-5.png": "/YourTour-React/static/media/cardTourPh-5.0ec96683a25fcfb960ea.png",
+    "static/media/cardTourPh-6.png": "/YourTour-React/static/media/cardTourPh-6.7184070863dee04ce3d5.png",
+    "static/media/travelphoto-7.png": "/YourTour-React/static/media/travelphoto-7.5f8399d666c4405d2a8c.png",
+    "static/media/travelphoto-9.png": "/YourTour-React/static/media/travelphoto-9.58a807fd50c9d197728b.png",
+    "static/media/travelphoto-8.png": "/YourTour-React/static/media/travelphoto-8.b951354b864339229b74.png",
+    "static/media/footer photo.png": "/YourTour-React/static/media/footer photo.985770e63604a12e6dbc.png",
+    "static/media/travelphoto-11.png": "/YourTour-React/static/media/travelphoto-11.6890881c89c775d78cc5.png",
+    "static/media/travelphoto-10.png": "/YourTour-React/static/media/travelphoto-10.a85031415e9e13102342.png",
+    "static/media/cardTourPh-3.png": "/YourTour-React/static/media/cardTourPh-3.1b9bee83a5415bb7dc7f.png",
+    "static/media/travelphoto-5.png": "/YourTour-React/static/media/travelphoto-5.ac807f7d563cf671ad1c.png",
+    "static/media/cardTourPh-2.png": "/YourTour-React/static/media/cardTourPh-2.c1e059e5d6e3945e755e.png",
+    "static/media/travelphoto-13.png": "/YourTour-React/static/media/travelphoto-13.93f24be48a4287ef44cc.png",
+    "static/media/cardTourPh-1.png": "/YourTour-React/static/media/cardTourPh-1.f399f4887cfc3a1d7395.png",
+    "static/media/story2.png": "/YourTour-React/static/media/story2.da5ca302ee43893f82ed.png",
+    "static/media/travelphoto-1.png": "/YourTour-React/static/media/travelphoto-1.c48af117415cdbcd2128.png",
+    "static/media/travelphoto-12.png": "/YourTour-React/static/media/travelphoto-12.6d4ac68386c46418eae2.png",
+    "static/media/travel photo-6.png": "/YourTour-React/static/media/travel photo-6.880fcd514e7554ef14b7.png",
+    "static/media/travel photo-4.png": "/YourTour-React/static/media/travel photo-4.60c51267fad34138f857.png",
+    "static/media/travel photo-3.png": "/YourTour-React/static/media/travel photo-3.a9e5a60807590926f851.png",
+    "static/media/travel photo-2.png": "/YourTour-React/static/media/travel photo-2.085305d21b5e7b9bd3f1.png",
+    "static/media/reviewer2.png": "/YourTour-React/static/media/reviewer2.f9a2dc40ee98d0321574.png",
+    "static/media/reviewer1.png": "/YourTour-React/static/media/reviewer1.9e2174aa33e1bd09b20a.png",
+    "index.html": "/YourTour-React/index.html",
+    "main.96d0cb8e.css.map": "/YourTour-React/static/css/main.96d0cb8e.css.map",
+    "main.5118ea24.js.map": "/YourTour-React/static/js/main.5118ea24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96d0cb8e.css",
+    "static/js/main.5118ea24.js"
+  ]
+}
