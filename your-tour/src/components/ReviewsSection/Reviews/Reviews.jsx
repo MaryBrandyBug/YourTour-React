@@ -16,7 +16,7 @@ export default function Reviews() {
   const tourName1 = 'Вдали от дома';
   const tourName2 = 'Путешествие в горы';
   return (
-    <div className="review-section section">
+    <div className="review-section section" id="reviews">
       <div className="review-section__header section__header__flex">
         <h2 className="review-section__header__title section__header__title">Отзывы наших путешественников</h2>
         <p className="review-section__header__subtitle section__header__subtitle">Идейные соображения высшего порядка, а также рамки и место обучения кадров</p>

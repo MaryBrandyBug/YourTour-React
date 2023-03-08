@@ -24,7 +24,7 @@ export default function Form() {
   };
 
   return (
-    <div className="form-section section">
+    <div className="form-section section" id="createTour">
       <div className="form-section__header section__header__flex">
         <h2 className="form-section__header__title section__header__title">Собери свой тур</h2>
         <p className="form-section__header__subtitle section__header__subtitle main-font-style">
@@ -113,7 +113,7 @@ export default function Form() {
             <div className="agreement-text">
               Нажимая кнопку, я принимаю условия
               {' '}
-              <a href='#' className="form-section__agreement-text-link">Лицензионного договора</a>
+              <button type="button" className="form-section__agreement-text-link">Лицензионного договора</button>
             </div>
           </label>
         </div>
