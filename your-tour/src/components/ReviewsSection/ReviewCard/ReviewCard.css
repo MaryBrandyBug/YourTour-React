@@ -7,6 +7,7 @@
   min-height: 590px;
   background: #F4F0E9;
   border-radius: 50px;
+  box-sizing: content-box;
 }
 .review-section__review-card .review-section__review-card-text {
   font-family: "Roboto";
