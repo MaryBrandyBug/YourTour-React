@@ -369,6 +369,7 @@
                 background: $darkGreen;
                 border-radius: 10px;
                 cursor: pointer;
+                transition: 0.7s;
 
                 .form-section__submit-button-text{
                     color: $whiteColor;
@@ -383,10 +384,12 @@
 
                 .form-section__submit-button:hover {
                     background: $greenColor;
+                    transition: 0.4s;
                 }
     
                 .form-section__submit-button:active {
                     background: $oliveGreenColor;
+                    transition: 0.3s;
                 }
             }
 
@@ -401,6 +404,7 @@
                 background: $lightGreenColor;
                 border-radius: 10px;
                 cursor: pointer;
+                transition: 0.7s;
 
                 .form-section__reset-button-text {
                     color: $darkGreen;
@@ -415,10 +419,12 @@
 
                 .form-section__reset-button:hover {
                     background: $whiteSmoke;
+                    transition: 0.4s;
                 }
     
                 .form-section__reset-button:active {
                     background: $gainsboro;
+                    transition: 0.3s;
                 }
             }
 
