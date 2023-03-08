@@ -96,6 +96,7 @@
 
             .header__content__button:hover {
                 background: $orangeColor;
+                transition: all 0.5s ease-out;
                 .find-tour-btn {
                     color: $whiteColor;
                 }
@@ -119,6 +120,7 @@
             background: $whiteColor;
             border-radius: 10px;
             cursor: pointer;
+            transition: 0.7s;
 
             .find-tour-btn {
                 max-width: 78px;

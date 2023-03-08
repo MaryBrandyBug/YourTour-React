@@ -317,6 +317,7 @@
   background: #286562;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.7s;
 }
 .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button .form-section__submit-button-text {
   color: #FFFFFF;
@@ -328,9 +329,11 @@
 @media (min-width: 361px) {
   .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button:hover {
     background: #3B7E7B;
+    transition: 0.4s;
   }
   .form-section .form-section__content-form .form-section__buttons-container .form-section__submit-button:active {
     background: #627F7E;
+    transition: 0.3s;
   }
 }
 .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button {
@@ -344,6 +347,7 @@
   background: #E0F0E5;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.7s;
 }
 .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button .form-section__reset-button-text {
   color: #286562;
@@ -355,9 +359,11 @@
 @media (min-width: 361px) {
   .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button:hover {
     background: #F1F3F2;
+    transition: 0.4s;
   }
   .form-section .form-section__content-form .form-section__buttons-container .form-section__reset-button:active {
     background: #D9DFDB;
+    transition: 0.3s;
   }
 }
 

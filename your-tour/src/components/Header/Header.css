@@ -83,6 +83,7 @@
 @media (min-width: 361px) {
   .header .header__content .header__content__button:hover {
     background: #EFA501;
+    transition: all 0.5s ease-out;
   }
   .header .header__content .header__content__button:hover .find-tour-btn {
     color: #FFFFFF;
@@ -104,6 +105,7 @@
   background: #FFFFFF;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.7s;
 }
 .header .header__content .header__content__button .find-tour-btn {
   max-width: 78px;
