@@ -11,8 +11,8 @@ export default function StoryCard(props) {
   const { additionalClassCards } = props;
 
   const networksList = networks?.map((network) => <p className="travel-stories-section__social-network main-font-style">{network}</p>);
-  const advantagesList = list?.map((item, i) => (i !== list.length - 1 ? <li className="travel-stories-section__content-block__list-item" key={i}>{item}</li> : (
-    <li className="travel-stories-section__content-block__list-item" key={i}>
+  const advantagesList = list?.map((item, i) => (i !== list.length - 1 ? <li className="travel-stories-section__content-block__list-item" key={new Date().getTime()}>{item}</li> : (
+    <li className="travel-stories-section__content-block__list-item" key={new Date().getTime()}>
       {item}
       .
     </li>

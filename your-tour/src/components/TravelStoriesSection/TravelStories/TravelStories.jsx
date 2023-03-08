@@ -17,7 +17,7 @@ export default function TravelStories() {
   const storyText = 'Идейные соображения высшего порядка, а также рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие в формировании новых предложений';
   const advantagesList = ['вкусная еда', 'дешевый транспорт', 'красивый город'];
   return (
-    <div className="travel-stories-section section">
+    <div className="travel-stories-section section" id="travelStories">
       <div className="travel-stories-section__header section__header__flex">
         <h2 className="travel-stories-section__header__title section__header__title">Истории путешествий</h2>
         <p className="travel-stories-section__header__subtitle section__header__subtitle">
