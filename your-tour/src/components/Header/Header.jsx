@@ -1,11 +1,12 @@
 import React from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import './Header.css';
 import YourTourLogo from './HeaderPNG/YourTour.png';
 
 export default function Header() {
   const menuItems = [{ item: 'Туры', id: 'chooseTour' }, { item: 'Создать тур', id: 'createTour' }, { item: 'Отзывы', id: 'reviews' }, { item: 'Истории', id: 'travelStories' }];
-  const menu = menuItems.map((i) => <Link to={`#${i.id}`} style={{ textDecoration: 'none' }}><p className="menu__item main-font-style">{i.item}</p></Link>);
+  const menu = menuItems.map((i) => <HashLink to={`#${i.id}`} style={{ textDecoration: 'none' }}><p className="menu__item main-font-style">{i.item}</p></HashLink>);
   return (
     <header className="header">
       <div className="header__navbar">
@@ -17,7 +18,7 @@ export default function Header() {
           <div className="navbar__menu">
             {menu}
           </div>
-          <p className="telephone main-font-style">+7 999 999 99 99</p>
+          <Link to="tel:+79999999999"><p className="telephone main-font-style">+7 999 999 99 99</p></Link>
         </div>
       </div>
       <div className="header__content">
