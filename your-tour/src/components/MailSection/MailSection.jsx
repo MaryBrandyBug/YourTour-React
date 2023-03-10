@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './MailSection.css';
 import mailSectionPhoto from './MailSectionPng/footer photo.png';
 
@@ -11,7 +12,7 @@ export default function MailSection() {
         <p className="mail-section__content__text main-font-style">
           Напиши на почту и узнай подробности на
           {' '}
-          <a href="#/" className="mail-section__content__mail">yourtour@gmail.com</a>
+          <Link to="mailto:yourtour@gmail.com" className="mail-section__content__mail">yourtour@gmail.com</Link>
         </p>
       </div>
     </div>
