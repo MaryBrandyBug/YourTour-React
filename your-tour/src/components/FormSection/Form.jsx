@@ -37,52 +37,113 @@ export default function Form() {
 
       <form onSubmit={handleSubmit} className="form-section__content-form section__content__flex">
         <div className="form-cont">
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Имя</p>
-              <input type="text" name="name" className="form-section__input-field main-font-style" placeholder="Введите Ваше имя" onChange={handleInput} />
-            </div>
-          </div>
+          {window.innerWidth > 780
+            ? (
+              <>
+                <div className="side-form-cont">
 
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Направление</p>
-              <div className="select-wrapper">
-                <select className="form-section__select-field main-font-style" name="direction" onChange={handleInput}>
-                  <option value="default">Куда хотите ехать</option>
-                  <option value="place">Едем сюда!</option>
-                </select>
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Имя</p>
+                      <input type="text" name="name" className="form-section__input-field main-font-style" placeholder="Введите Ваше имя" onChange={handleInput} />
+                    </div>
+                  </div>
+
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Email</p>
+                      <input type="email" name="email" className="form-section__input-field main-font-style" placeholder="example@mail.com" onChange={handleInput} />
+                    </div>
+                  </div>
+
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Дата от</p>
+                      <input type="date" name="dateSince" className="form-section__input-field main-font-style" onChange={handleInput} />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="side-form-cont">
+
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Направление</p>
+                      <div className="select-wrapper">
+                        <select className="form-section__select-field main-font-style" name="direction" onChange={handleInput}>
+                          <option value="default">Куда хотите ехать</option>
+                          <option value="place">Едем сюда!</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Телефон</p>
+                      <input type="tel" name="phoneNumber" className="form-section__input-field main-font-style" maxLength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" onChange={handleInput} />
+                    </div>
+                  </div>
+
+                  <div className="form-section__input-fields-container">
+                    <div className="form-section__input-field-container">
+                      <p className="form-section__input-name main-font-style">Дата до</p>
+                      <input type="date" name="dateUntil" className="form-section__input-field main-font-style" onChange={handleInput} />
+                    </div>
+                  </div>
+                </div>
+              </>
+            )
+            : (
+              <div className="side-form-cont">
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Имя</p>
+                    <input type="text" name="name" className="form-section__input-field main-font-style" placeholder="Введите Ваше имя" onChange={handleInput} />
+                  </div>
+                </div>
+
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Направление</p>
+                    <div className="select-wrapper">
+                      <select className="form-section__select-field main-font-style" name="direction" onChange={handleInput}>
+                        <option value="default">Куда хотите ехать</option>
+                        <option value="place">Едем сюда!</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Email</p>
+                    <input type="email" name="email" className="form-section__input-field main-font-style" placeholder="example@mail.com" onChange={handleInput} />
+                  </div>
+                </div>
+
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Телефон</p>
+                    <input type="tel" name="phoneNumber" className="form-section__input-field main-font-style" maxLength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" onChange={handleInput} />
+                  </div>
+                </div>
+
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Дата от</p>
+                    <input type="date" name="dateSince" className="form-section__input-field main-font-style" onChange={handleInput} />
+                  </div>
+                </div>
+
+                <div className="form-section__input-fields-container">
+                  <div className="form-section__input-field-container">
+                    <p className="form-section__input-name main-font-style">Дата до</p>
+                    <input type="date" name="dateUntil" className="form-section__input-field main-font-style" onChange={handleInput} />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Email</p>
-              <input type="email" name="email" className="form-section__input-field main-font-style" placeholder="example@mail.com" onChange={handleInput} />
-            </div>
-          </div>
-
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Телефон</p>
-              <input type="tel" name="phoneNumber" className="form-section__input-field main-font-style" maxLength="11" placeholder="+ 7 ( _ _ _ ) _ _ _ - _ _ - _ _" onChange={handleInput} />
-            </div>
-          </div>
-
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Дата от</p>
-              <input type="date" name="dateSince" className="form-section__input-field main-font-style" onChange={handleInput} />
-            </div>
-          </div>
-
-          <div className="form-section__input-fields-container">
-            <div className="form-section__input-field-container">
-              <p className="form-section__input-name main-font-style">Дата до</p>
-              <input type="date" name="dateUntil" className="form-section__input-field main-font-style" onChange={handleInput} />
-            </div>
-          </div>
+            )}
         </div>
 
         <div className="form-section__input-comment-container">
@@ -125,7 +186,7 @@ export default function Form() {
             <button type="button" className="form-section__reset-button-text main-font-style">Сбросить</button>
           </div>
         </div>
-
+        {console.log(typeof window.innerWidth, 1)}
       </form>
     </div>
   );
