@@ -186,7 +186,6 @@ export default function Form() {
             <button type="button" className="form-section__reset-button-text main-font-style">Сбросить</button>
           </div>
         </div>
-        {console.log(typeof window.innerWidth, 1)}
       </form>
     </div>
   );
