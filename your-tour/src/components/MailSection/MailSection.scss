@@ -2,7 +2,6 @@
 
 .mail-section {
     max-width: 771px;
-    min-height: 370px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,7 +10,7 @@
 
     .mail-section__photo {
         max-width: 370px;
-        max-height: 370px;
+        // max-height: 370px;
         border-radius: 50px;
     }
 
@@ -52,13 +51,13 @@
 
 @media (max-width: 780px) {
     .mail-section {
-        min-height: auto;
+        // min-height: auto;
         flex-direction: column;
 
 
         .mail-section__photo {
             max-width: 250px;
-            max-height: auto;
+            // max-height: auto;
             border-radius: 20px;
         }
 
@@ -83,14 +82,14 @@
 @media (max-width: 360px) {
     .mail-section {
         max-width: 360px;
-        min-height: 285px;
+        // min-height: 285px;
         flex-direction: column;
         margin-left: -2.5px;
         margin-top: 1px;
 
         .mail-section__photo {
             max-width: 130px;
-            max-height: 133px;
+            // max-height: 133px;
             border-radius: 20px;
         }
 

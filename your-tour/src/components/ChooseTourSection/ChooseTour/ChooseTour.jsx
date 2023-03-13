@@ -20,7 +20,7 @@ export default function ChooseTour() {
     </div>
   ));
   return (
-    <div className="choose-tour-section section">
+    <div className="choose-tour-section section" id="chooseTour">
       <div className="choose-tour-section__header section__header__flex">
         <h2 className="choose-tour-section__header__title section__header__title">Выбери свой тур</h2>
         <div className="choose-tour-section__header__menu">

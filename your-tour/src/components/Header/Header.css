@@ -62,11 +62,10 @@
   justify-content: center;
   align-items: center;
   gap: 50px;
-  min-height: 743px;
+  padding: 50px 0 50px 0;
 }
 .header .header__content .header__content__title {
   max-width: 768px;
-  min-height: 315px;
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
@@ -83,6 +82,7 @@
 @media (min-width: 361px) {
   .header .header__content .header__content__button:hover {
     background: #EFA501;
+    transition: all 0.5s ease-out;
   }
   .header .header__content .header__content__button:hover .find-tour-btn {
     color: #FFFFFF;
@@ -104,6 +104,7 @@
   background: #FFFFFF;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.7s;
 }
 .header .header__content .header__content__button .find-tour-btn {
   max-width: 78px;
@@ -168,9 +169,6 @@
     min-width: 124px;
     max-width: 124px;
   }
-  .header .header__content {
-    min-height: 550px;
-  }
   .header .header__content .header__content__title {
     font-size: 50px;
     min-height: 190px;
@@ -186,10 +184,7 @@
   }
   .header .header__content {
     min-width: 360px;
-    min-height: 488px;
     gap: 40px;
-    margin-top: -47px;
-    margin-left: -4px;
   }
   .header .header__content .header__content__title {
     font-size: 34px;

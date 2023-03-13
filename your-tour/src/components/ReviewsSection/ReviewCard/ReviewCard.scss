@@ -9,6 +9,7 @@
             min-height: 590px;
             background: $lightBeigeColor;
             border-radius: 50px;
+            box-sizing: content-box;
 
             .review-section__review-card-text {
                 font-family: 'Roboto';
