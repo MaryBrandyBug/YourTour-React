@@ -72,11 +72,12 @@
         justify-content: center;
         align-items: center;
         gap: 50px;
-        min-height: 743px;
+        // min-height: 743px;
+        padding: 50px 0 50px 0;
 
         .header__content__title {
             max-width: 768px;
-            min-height: 315px;
+            // min-height: 315px;
             font-style: normal;
             font-weight: 700;
             font-size: 96px;
@@ -233,7 +234,7 @@
         }
 
         .header__content {
-            min-height: 550px;
+            // min-height: 550px;
 
             .header__content__title {
                 font-size: 50px;
@@ -254,10 +255,10 @@
 
         .header__content {
             min-width: 360px;
-            min-height: 488px;
+            // min-height: 488px;
             gap: 40px;
-            margin-top: -47px;
-            margin-left: -4px;
+            // margin-top: -47px;
+            // margin-left: -4px;
 
             .header__content__title {
                 font-size: 34px;
